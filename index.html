@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Sundara Pandian - Commerce Educator</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(to right, #1a237e, #3949ab);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Navigation */
+        nav {
+            background: #fff;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            max-width: 800px;
+            margin: 0 auto;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1a237e;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #e8eaf6;
+        }
+
+        /* Main Content Sections */
+        section {
+            padding: 4rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: #1a237e;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        /* About Section */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto;
+            background-color: #e8eaf6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 5rem;
+            color: #1a237e;
+        }
+
+        /* Qualifications Section */
+        .qualifications {
+            background-color: #f5f5f5;
+        }
+
+        .qualification-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .qualification-item h3 {
+            color: #1a237e;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Teaching Section */
+        .teaching-areas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .teaching-area {
+            background: #e8eaf6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #f5f5f5;
+        }
+
+        .contact-info {
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+
+            section {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Prof. Sundara Pandian</h1>
+            <p>Commerce Educator | M.Com, CA, SET Qualified</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#qualifications">Qualifications</a></li>
+            <li><a href="#teaching">Teaching Areas</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">SP</div>
+                <p>
+                    I am a dedicated Commerce professor with expertise in teaching commerce subjects in Tamil medium. With a strong academic background and a passion for education, I strive to make complex commerce concepts accessible and engaging for my students. My teaching approach combines theoretical knowledge with practical insights to prepare students for their academic and professional journeys.
+                </p>
+            </div>
+        </section>
+
+        <section id="qualifications" class="qualifications">
+            <h2 class="section-title">Qualifications</h2>
+            <div class="qualification-item">
+                <h3>Master of Commerce (M.Com)</h3>
+                <p>Advanced studies in Commerce with specialization in financial management and accounting</p>
+            </div>
+            <div class="qualification-item">
+                <h3>Chartered Accountancy (CA)</h3>
+                <p>Professional qualification with expertise in accounting, taxation, and financial management</p>
+            </div>
+            <div class="qualification-item">
+                <h3>State Eligibility Test (SET)</h3>
+                <p>Qualified state-level eligibility test for professorship</p>
+            </div>
+        </section>
+
+        <section id="teaching">
+            <h2 class="section-title">Teaching Areas</h2>
+            <div class="teaching-areas">
+                <div class="teaching-area">
+                    <h3>Financial Accounting</h3>
+                    <p>Fundamental and advanced accounting principles</p>
+                </div>
+                <div class="teaching-area">
+                    <h3>Business Law</h3>
+                    <p>Legal aspects of business operations</p>
+                </div>
+                <div class="teaching-area">
+                    <h3>Corporate Finance</h3>
+                    <p>Financial management and planning</p>
+                </div>
+                <div class="teaching-area">
+                    <h3>Taxation</h3>
+                    <p>Direct and indirect taxation principles</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-info">
+                <p>For academic inquiries and collaborations, please feel free to reach out.</p>
+                <p>Email: [Your Email]</p>
+                <p>Office Hours: Monday to Friday, 9:00 AM - 4:00 PM</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prof. Sundara Pandian. All rights reserved.</p>
+    </footer>
+</body>
+</html>
